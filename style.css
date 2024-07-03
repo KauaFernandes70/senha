@@ -117,6 +117,10 @@ label{
     width: 25%;
     background-color: #E71B32; 
 }
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
 .media{
     background-color: #FAF408;
     width: 50%;
@@ -136,8 +140,5 @@ label{
         flex-direction: row;
     }
 }
-.parametro-senha{
-    width: 50%;
-    margin: 0 auto;
-}
+
 
