@@ -69,7 +69,7 @@ body{
     font-family: var(--roboto-mono);
     font-size: 28px;
 }
-.parametro-coluna__senha{
+.parametro-coluna--senha{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,6 +131,7 @@ label{
 }
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
+
         flex-direction: row;
     }
 }
