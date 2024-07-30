@@ -8,11 +8,24 @@ const botoes = document.querySelectorAll('.parametro-senha__botao');
 
 botoes[0].onclick = diminuiTamanho;
 
-function diminuiTamanho(){ 
-    tamanhoSenha = tamanhoSenha - 1;
+function diminuiTamanho(){
+    if (tamanhoSenha > 1){
+        tamanhoSenha = tamanhoSenha-1;
+        tamanhoSenha--;
+    }
 
     numeroSenha.textContent = tamanhoSenha
+    geraSenha();
 }
+function aumentaTamanho(){
+    if (tamanhoSenha < 20){
+       tamanhoSenha = tamanhoSenha+1;
+       tamanhoSenha++;
+    }
+    numeroSenha.textContent = tamanhoSenha;
+    geraSenha();
+}
+
 
 const campoSenha = document.querySelector('#campo-senha');
 
