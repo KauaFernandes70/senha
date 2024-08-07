@@ -12,7 +12,7 @@ const campoSenha = document.querySelector('#campo-senha');
 const checkbox = document.querySelectorAll('.checkbox');
 const forcaSenha = document.querySelector('forca');
 
-const botoes = document.querySelectorAll('.parametro-senha__botao');
+
 
 botoes[0].onclick = diminuiTamanho;
 
@@ -70,4 +70,3 @@ function geraSenha(){
     function classificaSenha(){
         forcaSenha.classList.add('forte')
     }
-    
