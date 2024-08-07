@@ -73,8 +73,9 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
-.parametro-senha-botoes{
+.parametro-senha__botoes{
     display: flex;
     justify-content: center;
 }
