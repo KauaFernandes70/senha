@@ -63,10 +63,12 @@ function geraSenha(){
         senha = senha + alfabeto[numeroAleatorio];
     }
     campoSenha.value = senha;
-    classificaSenha();
+    classificaSenha(alfabeto.length);
     
     }
-    function classificaSenha(){
+    function classificaSenha(tamanhoalfabeto){
+            let entropia = tamanhoSenha * Math.log2(tamanhoalfabeto);
+            console.log(entropia);
         forcaSenha.classList.remove('fraca','media','forte');
             if (tamanhoSenha > 11){
                forcaSenha.classList.add('forte');
@@ -76,3 +78,5 @@ function geraSenha(){
                 forcaSenha.classList.add('fraca');
             }
     }   
+
+  
