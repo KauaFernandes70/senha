@@ -68,5 +68,8 @@ function geraSenha(){
     }
     
     function classificaSenha(){
+        forcaSenha.classList.remove('fraca');
+        if (tamanhoSenha > 11){
         forcaSenha.classList.add('forte')
     }
+ }   
