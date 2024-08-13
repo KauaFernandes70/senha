@@ -17,7 +17,6 @@ body{
     color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
-    margin: 8px;
 }
 
 .titulo-principal{
@@ -27,7 +26,7 @@ body{
 
 .titulo-secundario{
     font-size: 24px;
-    font-weight: 400;
+    
 }
 
 .conteudo-titulo{
