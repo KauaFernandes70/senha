@@ -128,12 +128,12 @@ label{
     background-color: #E71B32; 
 }
 .media{
-    background-color: #FAF408;
     width: 50%;
+    background-color: #FAF408;
 }
 .forte{
-    background-color: #00FF85;
     width: 100%;
+    background-color: #00FF85;
 }
 .parametro-senha-textos {
     display: flex;
