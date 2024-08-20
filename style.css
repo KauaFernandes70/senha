@@ -78,6 +78,12 @@ body{
     justify-content: center;
 
 }
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .parametro-senha__botoes{
     display: flex;
     justify-content: center;
