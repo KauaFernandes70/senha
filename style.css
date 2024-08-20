@@ -3,7 +3,7 @@
 :root{
     --branco: white;
     --cor-de-fundo: #00162E;
-    --fundo-senha: #00244D;
+    --fundo-senha: #51ff00;
     --fundo-texto: #001E40;
     --borda: #0075FF;
     --roboto: 'Roboto', sans-serif;
@@ -135,7 +135,7 @@ label{
     width: 100%;
     background-color: #00FF85;
 }
-.parametro-senha__textos {
+.parametro-senha__atextos {
     display: flex;
     justify-content: space-between;
 }
