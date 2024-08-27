@@ -12,7 +12,7 @@ const campoSenha = document.querySelector('#campo-senha');
 const checkbox = document.querySelectorAll('.checkbox');
 const forcaSenha = document.querySelector('forca');
 
-
+console.log(checkbox)
 
 botoes[0].onclick = diminuiTamanho;
 
